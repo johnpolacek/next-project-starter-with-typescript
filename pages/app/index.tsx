@@ -13,6 +13,9 @@ const AppIndexPage = ({mode}: Props) => {
       description={
         "Next.js Project Starter Example with parameterized route props"
       }
+      twitter="johnpolacek"
+      imageUrl="https://next-project-starter.vercel.app/project-logo.png"
+      imageAlt="Next Project Starter Logo"
     >
       <App mode={mode} />
     </Wrapper>

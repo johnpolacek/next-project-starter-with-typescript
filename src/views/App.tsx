@@ -4,7 +4,7 @@ import { AppContext } from "../context/AppContext"
 import AppLink from "../ui/AppLink"
 
 type Props = {
-  mode: string
+  mode?: string
 }
 
 const App = ({ mode }: Props) => {
