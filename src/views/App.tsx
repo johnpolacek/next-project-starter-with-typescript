@@ -29,7 +29,7 @@ const App = ({ mode }: Props) => {
         {mode ? "You selected " + mode.toUpperCase() : "Select a mode"}
       </Text>
       <AppLink
-        href={mode === "red" ? "#" : "/app?mode=red"}
+        href={mode === "red" ? "#" : "/app/red"}
         mode={mode}
         disabled={mode === "red"}
         bg="red"
@@ -37,7 +37,7 @@ const App = ({ mode }: Props) => {
         Red
       </AppLink>
       <AppLink
-        href={mode === "green" ? "#" : "/app?mode=green"}
+        href={mode === "green" ? "#" : "/app/green"}
         mode={mode}
         disabled={mode === "green"}
         bg="green"
@@ -45,7 +45,7 @@ const App = ({ mode }: Props) => {
         Green
       </AppLink>
       <AppLink
-        href={mode === "blue" ? "#" : "/app?mode=blue"}
+        href={mode === "blue" ? "#" : "/app/blue"}
         mode={mode}
         disabled={mode === "blue"}
         bg="blue"

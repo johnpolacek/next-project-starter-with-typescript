@@ -18,12 +18,13 @@ const AppModePage = ({mode}: Props) => {
       imageUrl="https://next-project-starter.vercel.app/project-logo.png"
       imageAlt="Next Project Starter Logo"
     >
-      <App />
+      <App mode={mode} />
     </Wrapper>
   )
 }
 
 AppModePage.getInitialProps = ({ query }) => {
+  console.log("query", query)
   const mode = query.mode || null
   return { mode }
 }
