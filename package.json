@@ -1,0 +1,39 @@
+{
+  "name": "next-project-starter",
+  "description": "Get your next React project up and running quickly with Next.js, Theme UI, MDX and more.",
+  "version": "0.1.5",
+  "scripts": {
+    "cypress": "cypress open",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,tsx}\"",
+    "format-watch": "npm run format && onchange \"**/*.{js,jsx,json,md}\" -- prettier --write {{changed}}",
+    "test": "tsc && cypress run",
+    "deploy": "npm run test && git push origin main && vercel --prod",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.3",
+    "@mdx-js/loader": "^1.6.22",
+    "@next/mdx": "^11.1.2",
+    "@types/node": "^14.17.17",
+    "@types/react": "^17.0.21",
+    "@types/react-dom": "^17.0.9",
+    "cypress": "^8.3.1",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "theme-ui": "^0.11.1",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "prettier": "^2.2.0"
+  },
+  "resolutions": {
+    "@babel/runtime": "^7.12.5"
+  },
+  "repository": "https://github.com/johnpolacek/next-project-starter",
+  "license": "MIT-0"
+}
