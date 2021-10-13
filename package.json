@@ -10,7 +10,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md,tsx}\"",
     "format-watch": "npm run format && onchange \"**/*.{js,jsx,json,md}\" -- prettier --write {{changed}}",
     "test": "tsc && cypress run",
-    "deploy": "npm run test && git push origin main && vercel --prod",
+    "deploy": "npm run test && git push origin main",
     "type-check": "tsc"
   },
   "dependencies": {

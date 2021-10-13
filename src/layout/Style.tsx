@@ -1,7 +1,8 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import theme from "./Theme"
+import theme from "./ui/Theme"
+import React from "react"
 
 const Style = () => (
   <style jsx global>{`
@@ -224,4 +225,4 @@ const Style = () => (
   `}</style>
 )
 
-export default Style
+export default React.memo(Style)
