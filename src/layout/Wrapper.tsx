@@ -1,7 +1,8 @@
+import React, { useEffect } from "react"
 import { ThemeProvider } from "theme-ui"
 import { AppProvider } from "../context/AppContext"
 import Layout from "./Layout"
-import Theme from "./Theme"
+import Theme from "../ui/Theme"
 
 type Props = {
   title: string
@@ -48,4 +49,4 @@ const Wrapper = ({
   )
 }
 
-export default Wrapper
+export default React.memo(Wrapper)

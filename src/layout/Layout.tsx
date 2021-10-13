@@ -1,7 +1,8 @@
+import React from "react"
 import { Box } from "theme-ui"
 import Head from "./Head"
 import Style from "./Style"
-import Main from "../ui/Main"
+import Main from "../ui/containers/Main"
 import Transition from "./Transition"
 
 type Props = {
@@ -32,4 +33,4 @@ const Layout = ({
   </>
 )
 
-export default Layout
+export default React.memo(Layout)
