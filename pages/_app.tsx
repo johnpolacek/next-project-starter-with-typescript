@@ -1,4 +1,5 @@
 import { AppProps } from 'next/app';
+import React from "react"
 import { ThemeProvider } from "theme-ui"
 import Theme from "../src/layout/Theme"
 import { Box } from "theme-ui"
@@ -23,4 +24,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 
-export default MyApp
+export default React.memo(MyApp)
