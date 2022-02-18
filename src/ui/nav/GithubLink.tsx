@@ -2,7 +2,7 @@ import { Link } from "theme-ui"
 
 const GithubLink = () => (
   <Link
-    href="https://github.com/johnpolacek/project-starter"
+    href="https://github.com/johnpolacek/project-starter-with-typescript"
     title="Go to Project on Github"
     sx={{
       display: "inline-block",
