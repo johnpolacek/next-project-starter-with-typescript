@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import theme from "./ui/Theme"
+import theme from "../ui/Theme"
 import React from "react"
 
 const Style = () => (

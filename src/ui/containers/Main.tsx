@@ -1,6 +1,6 @@
 import { Box } from "theme-ui"
 import React, { useContext } from "react"
-import { AppContext } from "../context/AppContext"
+import { AppContext } from "../../context/AppContext"
 
 type Props = {
   children: React.ReactNode

@@ -1,10 +1,10 @@
 import { AppProps } from 'next/app';
 import React from "react"
 import { ThemeProvider } from "theme-ui"
-import Theme from "../src/layout/Theme"
+import Theme from "../src/ui/Theme"
 import { Box } from "theme-ui"
-import Header from "../src/ui/Header"
-import Footer from "../src/ui/Footer"
+import Header from "../src/ui/containers/Header"
+import Footer from "../src/ui/containers/Footer"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

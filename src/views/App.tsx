@@ -1,7 +1,7 @@
 import { Box, Text } from "theme-ui"
 import React, { useContext, useEffect } from "react"
 import { AppContext } from "../context/AppContext"
-import AppLink from "../ui/AppLink"
+import AppLink from "../ui/nav/AppLink"
 
 type Props = {
   mode?: string

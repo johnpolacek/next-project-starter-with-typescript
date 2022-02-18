@@ -1,4 +1,4 @@
-import Nav from "./Nav"
+import Nav from "../nav/Nav"
 
 const Header = () => (
   <header>
